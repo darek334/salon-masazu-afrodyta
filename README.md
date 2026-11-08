@@ -63,7 +63,7 @@ salon-masazu/
 │   ├── table_schema/             # podstawowy schemat struktury katalogów definiujących tabele
 │   ├.................            # następna tabela, każda tabela ma mieć swój oddzielny katalog. Triggery itp do tego samego katalogu
 │
-├── docs/                         # Folder na dokumentacje projektu
+├── documentation/                # Folder na dokumentacje projektu
 │   └── main_architecture.md      # Podstawowe założenia
 │
 ├── .gitignore
