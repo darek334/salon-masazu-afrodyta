@@ -54,17 +54,17 @@ salon-masazu/
 │   └── php/                      # index.php
 │
 ├── backend/                      # Warstwa pośrednia - endpointy
-│   ├── endpoint-schema/          # podstawowy schemat struktury katalogów endpointa
+│   ├── endpoint-schema/          # folder endpointa
 │   │   ├── php/                    # index.php
 │   │.................            # następne endpointy
-│   └── classes/
+│   └── classes/                  # klasy PHP
 │
 ├── database/                     # Warstwa danych - baza danych
-│   ├── table-schema/             # podstawowy schemat struktury katalogów definiujących tabele
-│   ├.................            # następna tabela, każda tabela ma mieć swój oddzielny katalog. Triggery itp do tego samego katalogu
+│   ├── table-schema/             # katalog tabeli - tu wrzucamy wszystko łącznie z triggerami itp
+│   ├.................            # następna tabela
 │
-├── documentation/                # Folder na dokumentacje projektu
-│   └── main-architecture/        # Podstawowe założenia
+├── documentation/                # Folder dokumentacji
+│   └── main-architecture/        # Założenia architektoniczne
 │
 ├── .gitignore
 └── README.md
